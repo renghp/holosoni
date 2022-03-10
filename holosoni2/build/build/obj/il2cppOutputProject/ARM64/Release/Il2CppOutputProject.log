@@ -1,0 +1,116 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 16.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM64\cl.exe
+  
+  	Output directory: C:\Users\S3822262\holosoni\holosoni2\build\build\bin\ARM64\Release
+  	Cache directory: C:\Users\S3822262\holosoni\holosoni2\build\build\obj\il2cppOutputProject\ARM64\Release
+  mscorlib_CodeGen.c
+  Il2CppGenericInstDefinitions.c
+  Il2CppGenericClassTable.c
+  Il2CppMetadataUsage.c
+  Il2CppGenericMethodPointerTable.cpp
+  Unity.InputSystem_CodeGen.c
+  Il2CppCCalculateFieldValues2.cpp
+  Il2CppTypeDefinitions.c
+  Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
+  Il2CppCCalculateTypeValues1.cpp
+  Microsoft.MixedReality.Toolkit_CodeGen.c
+  Il2CppGenericMethodTable.c
+  GenericMethods11.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Il2CppGenericMethodDefinitions.c
+  UnityEngine.UI_CodeGen.c
+  Il2CppCCTypeValuesTable.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Unity.TextMeshPro_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Examples_CodeGen.c
+  System_CodeGen.c
+  Unity.XR.OpenXR_CodeGen.c
+  GenericMethods12.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem_CodeGen.c
+  Microsoft.MixedReality.OpenXR_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Tests.Utilities.cpp
+  Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive_CodeGen.c
+  System.Runtime.WindowsRuntime_CodeGen.c
+  WindowsRuntimeMetadata_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.InputSimulation_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c
+  Unity.XR.ARSubsystems_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.InputAnimation_CodeGen.c
+  I18N.Rare_CodeGen.c
+  UnityEngine.XRModule_CodeGen.c
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  UnityEngine.IMGUIModule_CodeGen.c
+  Unity.XR.ARFoundation_CodeGen.c
+  UnityEngine.TextCoreModule_CodeGen.c
+  I18N.CJK_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.SceneSystem_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.OpenXR_CodeGen.c
+  System.Core_CodeGen.c
+  UnityEngine.PhysicsModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Async_CodeGen.c
+  UnityEngine.UnityWebRequestModule_CodeGen.c
+  UnityEngine.AnimationModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared_CodeGen.c
+  I18N_CodeGen.c
+  UnityEngine.UIModule_CodeGen.c
+  UnityEngine.ParticleSystemModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Tests.Utilities_Attr.cpp
+  UnityEngine.SubsystemsModule_CodeGen.c
+  I18N.West_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK_CodeGen.c
+  UnityEngine.TextRenderingModule_CodeGen.c
+  I18N.Other_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput_CodeGen.c
+  UnityEngine.AudioModule_CodeGen.c
+  Unity.XR.Management_CodeGen.c
+  UnityEngine.Physics2DModule_CodeGen.c
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+  UnityEngine.InputLegacyModule_CodeGen.c
+  System.Numerics_CodeGen.c
+  UnityEngine.TerrainModule_CodeGen.c
+  UnityEngine.SpatialTracking_CodeGen.c
+  Il2CppCodeRegistration.cpp
+  Microsoft.MixedReality.Toolkit.Tests.Utilities_CodeGen.c
+  I18N.MidEast_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c
+  UnityEngine.TilemapModule_CodeGen.c
+  Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+  UnityEngine.VFXModule_CodeGen.c
+  UnityEngine.VideoModule_CodeGen.c
+  Il2CppInvokerTable.cpp
+  System.Xml_CodeGen.c
+  UnityEngine.UnityAnalyticsModule_CodeGen.c
+  UnityEngine.UIElementsNativeModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.CameraSystem_CodeGen.c
+  UnityEngine.InputModule_CodeGen.c
+  Mono.Security_CodeGen.c
+  Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+  System.Configuration_CodeGen.c
+  UnityEngine.JSONSerializeModule_CodeGen.c
+  UnityEngine.ARModule_CodeGen.c
+  UnityEngine.VRModule_CodeGen.c
+  UnityEngine.ImageConversionModule_CodeGen.c
+  UnityEngine.AIModule_CodeGen.c
+  Il2CppMetadataRegistration.c
+  ObjectFiles: 687 of which compiled: 93
+  	Time Compile: 22444 milliseconds Il2CppInvokerTable.cpp
+  	Time Compile: 8349 milliseconds GenericMethods11.cpp
+  	Time Compile: 7742 milliseconds Il2CppCCalculateTypeValues1.cpp
+  	Time Compile: 6224 milliseconds Il2CppTypeDefinitions.c
+  	Time Compile: 5223 milliseconds Il2CppGenericMethodPointerTable.cpp
+  	Time Compile: 5126 milliseconds GenericMethods12.cpp
+  	Time Compile: 4625 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 4077 milliseconds Il2CppCCalculateFieldValues2.cpp
+  	Time Compile: 3521 milliseconds Il2CppGenericMethodTable.c
+  	Time Compile: 2553 milliseconds Il2CppGenericMethodDefinitions.c
+  Total compilation time: 34518 milliseconds.
+  Creating library C:\Users\S3822262\holosoni\holosoni2\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_686CAED57897CE68A436B9C3E4D7FB42\GameAssembly.lib and object C:\Users\S3822262\holosoni\holosoni2\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_686CAED57897CE68A436B9C3E4D7FB42\GameAssembly.exp
+  Total link time: 23377 milliseconds.
+  Cleaned up 92 object files.
