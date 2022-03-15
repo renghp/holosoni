@@ -11,17 +11,6 @@
 #include <stdint.h>
 
 
-template <typename R>
-struct VirtFuncInvoker0
-{
-	typedef R (*Func)(void*, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
-	}
-};
 
 // System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Audio.AudioLoFiSourceQuality,Microsoft.MixedReality.Toolkit.Audio.AudioLoFiEffect/AudioLoFiFilterSettings>
 struct Dictionary_2_t263DAEEF9EB08541225A3E314E44AF5563E96393;
@@ -76,9 +65,9 @@ struct VoiceInformation_tC62902AA10C37822040544FB2D38B50C0267E18D;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 
+IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TextToSpeechVoice_t09733366B2D0EB539AEF1E44FB2F61BF25AE56BC_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C String_t* _stringLiteral9848096709ED113CB7922603FFE749BAE52A223E;
+IL2CPP_EXTERN_C String_t* _stringLiteralCA40BAD1F8C8B82F0F99FB4EA86C821568718CE8;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisTextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900_m79B41E222D008CA835EB29FDFBBE0580B6324CD4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisAudioLoFiEffect_tFE664E948EC03A4EEB6A07D993664A2246D685F1_m5D6F7FC66A57F86528E83ED921F70AF7DBCC070D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRenderer_t58147AB5B00224FE1460FD47542DC0DA7EC9378C_mD787758BED3337F182C18CC67C516C2A11B55466_RuntimeMethod_var;
@@ -981,6 +970,8 @@ struct TextToSpeechSample_tEFA8A9A434F8868AE6B41FDFEDE05226CAE1BC78  : public Mo
 public:
 	// Microsoft.MixedReality.Toolkit.Audio.TextToSpeech Microsoft.MixedReality.Toolkit.Examples.Demos.TextToSpeechSample::textToSpeech
 	TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * ___textToSpeech_4;
+	// System.String Microsoft.MixedReality.Toolkit.Examples.Demos.TextToSpeechSample::messageToBeRead
+	String_t* ___messageToBeRead_5;
 
 public:
 	inline static int32_t get_offset_of_textToSpeech_4() { return static_cast<int32_t>(offsetof(TextToSpeechSample_tEFA8A9A434F8868AE6B41FDFEDE05226CAE1BC78, ___textToSpeech_4)); }
@@ -990,6 +981,15 @@ public:
 	{
 		___textToSpeech_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___textToSpeech_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_messageToBeRead_5() { return static_cast<int32_t>(offsetof(TextToSpeechSample_tEFA8A9A434F8868AE6B41FDFEDE05226CAE1BC78, ___messageToBeRead_5)); }
+	inline String_t* get_messageToBeRead_5() const { return ___messageToBeRead_5; }
+	inline String_t** get_address_of_messageToBeRead_5() { return &___messageToBeRead_5; }
+	inline void set_messageToBeRead_5(String_t* value)
+	{
+		___messageToBeRead_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___messageToBeRead_5), (void*)value);
 	}
 };
 
@@ -1032,12 +1032,10 @@ inline TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * Component_GetCom
 {
 	return ((  TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
 }
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
-// Microsoft.MixedReality.Toolkit.Audio.TextToSpeechVoice Microsoft.MixedReality.Toolkit.Audio.TextToSpeech::get_Voice()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextToSpeech_get_Voice_m88B04111F183D4F5F4040A5150DBD2AC38E1081F (TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * __this, const RuntimeMethod* method);
-// System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17 (String_t* ___format0, RuntimeObject * ___arg01, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Audio.TextToSpeech::StartSpeaking(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextToSpeech_StartSpeaking_mE80955CDBDE8726E196CEEC746A404192D4A8352 (TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * __this, String_t* ___text0, const RuntimeMethod* method);
 #ifdef __clang__
@@ -1377,15 +1375,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextToSpeechSample_Speak_m5564F6F454C0B3
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextToSpeechVoice_t09733366B2D0EB539AEF1E44FB2F61BF25AE56BC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9848096709ED113CB7922603FFE749BAE52A223E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA40BAD1F8C8B82F0F99FB4EA86C821568718CE8);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	String_t* V_1 = NULL;
-	int32_t V_2 = 0;
 	{
+		// Debug.Log("started speaking");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteralCA40BAD1F8C8B82F0F99FB4EA86C821568718CE8, /*hidden argument*/NULL);
 		// if (textToSpeech != null)
 		TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * L_0 = __this->get_textToSpeech_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
@@ -1395,34 +1395,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextToSpeechSample_Speak_m5564F6F454C0B3
 		bool L_2 = V_0;
 		if (!L_2)
 		{
-			goto IL_0044;
+			goto IL_0032;
 		}
 	}
 	{
-		// var msg = string.Format(
-		// "This is the {0} voice. It should sound like it's coming from the object you clicked. Feel free to walk around and listen from different angles.",
-		// textToSpeech.Voice.ToString());
-		TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * L_3 = __this->get_textToSpeech_4();
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = TextToSpeech_get_Voice_m88B04111F183D4F5F4040A5150DBD2AC38E1081F(L_3, /*hidden argument*/NULL);
-		V_2 = L_4;
-		RuntimeObject * L_5 = Box(TextToSpeechVoice_t09733366B2D0EB539AEF1E44FB2F61BF25AE56BC_il2cpp_TypeInfo_var, (&V_2));
-		NullCheck(L_5);
-		String_t* L_6;
-		L_6 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
-		V_2 = *(int32_t*)UnBox(L_5);
-		String_t* L_7;
-		L_7 = String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17(_stringLiteral9848096709ED113CB7922603FFE749BAE52A223E, L_6, /*hidden argument*/NULL);
-		V_1 = L_7;
+		// var msg = messageToBeRead;
+		String_t* L_3 = __this->get_messageToBeRead_5();
+		V_1 = L_3;
 		// textToSpeech.StartSpeaking(msg);
-		TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * L_8 = __this->get_textToSpeech_4();
-		String_t* L_9 = V_1;
-		NullCheck(L_8);
-		TextToSpeech_StartSpeaking_mE80955CDBDE8726E196CEEC746A404192D4A8352(L_8, L_9, /*hidden argument*/NULL);
+		TextToSpeech_t06BA8C2E6BE3E764B0DB77E2563F6F15FFD36900 * L_4 = __this->get_textToSpeech_4();
+		String_t* L_5 = V_1;
+		NullCheck(L_4);
+		TextToSpeech_StartSpeaking_mE80955CDBDE8726E196CEEC746A404192D4A8352(L_4, L_5, /*hidden argument*/NULL);
 	}
 
-IL_0044:
+IL_0032:
 	{
 		// }
 		return;
