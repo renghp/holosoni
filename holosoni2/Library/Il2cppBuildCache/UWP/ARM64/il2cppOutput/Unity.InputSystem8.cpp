@@ -21682,7 +21682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RebindingOperation_t5DA0F3263991E7BED360B8A1A
 		Type_t * L_4 = ___type0;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
+		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
 		G_B3_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		goto IL_0027;
 	}
@@ -23298,7 +23298,7 @@ IL_0128:
 		InputControl_t3CDD1115017147EEC9D825834637D7700669C006 * L_44 = V_6;
 		NullCheck(L_43);
 		bool L_45;
-		L_45 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_43, L_44);
+		L_45 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_43, L_44);
 		G_B33_0 = ((((int32_t)L_45) == ((int32_t)0))? 1 : 0);
 		goto IL_0149;
 	}
@@ -30293,7 +30293,7 @@ IL_0065:
 		Type_t * L_12 = __this->get_U3CcompositeTypeU3E5__1_5();
 		NullCheck(L_12);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_13;
-		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
+		L_13 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
 		__this->set_U3CU3Es__2_6(L_13);
 		__this->set_U3CU3Es__3_7(0);
 		goto IL_00f2;
@@ -32952,7 +32952,7 @@ IL_003b:
 		Type_t * L_13 = V_1;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
+		L_14 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
 		V_3 = L_14;
 		goto IL_0045;
 	}
@@ -36037,7 +36037,7 @@ IL_007b:
 		Type_t * L_21 = V_0;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
+		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
 		V_4 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
 		bool L_23 = V_4;
 		if (!L_23)

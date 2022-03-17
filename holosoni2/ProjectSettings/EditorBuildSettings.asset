@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRTK/Examples/Demos/Audio/Scenes/TextToSpeechExamples.unity
     guid: 1e93c6d5e2107e54196d430f0c126f70
+  - enabled: 1
+    path: Assets/playground.unity
+    guid: 3dec4d72acc5a794caacca82adc43a57
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7b344dbb141f9d142b9035a83d35e18e, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 863e7a3f25720534baf8fbc88b461adb, type: 2}

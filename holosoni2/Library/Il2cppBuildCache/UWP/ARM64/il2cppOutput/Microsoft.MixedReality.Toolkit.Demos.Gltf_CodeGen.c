@@ -53,18 +53,18 @@ static Il2CppMethodPointer s_methodPointers[12] =
 };
 static const int32_t s_InvokerIndices[12] = 
 {
-	4671,
-	4671,
-	4671,
-	4671,
-	3788,
-	4586,
-	4586,
-	4671,
-	4671,
-	4671,
-	4671,
-	3788,
+	6102,
+	6102,
+	6102,
+	6102,
+	4901,
+	6005,
+	6005,
+	6102,
+	6102,
+	6102,
+	6102,
+	4901,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Demos_Gltf_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Gltf_CodeGenModule;

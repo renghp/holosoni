@@ -18211,7 +18211,7 @@ IL_004b:
 		String_t* L_14 = ___part1;
 		NullCheck(L_13);
 		FieldInfo_t * L_15;
-		L_15 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(42 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_13, L_14, ((int32_t)21));
+		L_15 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_13, L_14, ((int32_t)21));
 		V_1 = L_15;
 		// if (field == null)
 		FieldInfo_t * L_16 = V_1;
@@ -21623,7 +21623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputBindingResolver_AssignCompositeP
 		String_t* L_3 = ___name1;
 		NullCheck(L_2);
 		FieldInfo_t * L_4;
-		L_4 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(42 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_2, L_3, ((int32_t)53));
+		L_4 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_2, L_3, ((int32_t)53));
 		V_1 = L_4;
 		// if (field == null)
 		FieldInfo_t * L_5 = V_1;
@@ -25409,7 +25409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputControlLayout_get_isDeviceLayout_m3
 		Type_t * L_2 = __this->get_m_Type_3();
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		return L_3;
 	}
 }
@@ -26315,7 +26315,7 @@ IL_0029:
 		L_15 = InputControlLayoutAttribute_get_stateType_m17D25FD653239D6DB6B08EE1AEA5071118F891A9_inline(L_14, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		bool L_16;
-		L_16 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_15);
+		L_16 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_15);
 		V_6 = L_16;
 		bool L_17 = V_6;
 		if (!L_17)
@@ -26829,7 +26829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayout_AddControlItemsFromFi
 		Type_t * L_0 = ___type0;
 		NullCheck(L_0);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_1;
-		L_1 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
+		L_1 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
 		V_0 = L_1;
 		// AddControlItemsFromMembers(fields, controlLayouts, layoutName);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_2 = V_0;
@@ -26859,7 +26859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayout_AddControlItemsFromPr
 		Type_t * L_0 = ___type0;
 		NullCheck(L_0);
 		PropertyInfoU5BU5D_tE59E95F68533BDA98ABBBEACB6A99BF2C7A4A26A* L_1;
-		L_1 = VirtFuncInvoker1< PropertyInfoU5BU5D_tE59E95F68533BDA98ABBBEACB6A99BF2C7A4A26A*, int32_t >::Invoke(52 /* System.Reflection.PropertyInfo[] System.Type::GetProperties(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
+		L_1 = VirtFuncInvoker1< PropertyInfoU5BU5D_tE59E95F68533BDA98ABBBEACB6A99BF2C7A4A26A*, int32_t >::Invoke(56 /* System.Reflection.PropertyInfo[] System.Type::GetProperties(System.Reflection.BindingFlags) */, L_0, ((int32_t)22));
 		V_0 = L_1;
 		// AddControlItemsFromMembers(properties, controlLayouts, layoutName);
 		PropertyInfoU5BU5D_tE59E95F68533BDA98ABBBEACB6A99BF2C7A4A26A* L_2 = V_0;
@@ -26994,7 +26994,7 @@ IL_0030:
 		Type_t * L_19 = V_3;
 		NullCheck(L_18);
 		bool L_20;
-		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
+		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
 		G_B7_0 = ((int32_t)(L_20));
 		goto IL_005b;
 	}
@@ -27173,7 +27173,7 @@ IL_0115:
 		Type_t * L_67 = V_3;
 		NullCheck(L_66);
 		bool L_68;
-		L_68 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_66, L_67);
+		L_68 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_66, L_67);
 		G_B20_0 = ((((int32_t)L_68) == ((int32_t)0))? 1 : 0);
 		goto IL_014f;
 	}
@@ -28801,7 +28801,7 @@ IL_006e:
 		Type_t * L_20 = L_19->get_m_Type_3();
 		NullCheck(L_18);
 		bool L_21;
-		L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_20);
+		L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_20);
 		V_5 = L_21;
 		bool L_22 = V_5;
 		if (!L_22)

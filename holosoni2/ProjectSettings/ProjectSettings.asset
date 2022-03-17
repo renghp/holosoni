@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: RMIT
-  productName: soundTest
+  productName: vuTest
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -136,6 +136,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 5142319687121377954, guid: 863e7a3f25720534baf8fbc88b461adb, type: 2}
   - {fileID: 3691176127309856052, guid: 7b344dbb141f9d142b9035a83d35e18e, type: 2}
   metroInputSource: 0
@@ -636,9 +637,12 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      VideosLibrary: True
       GazeInput: True
       SpatialPerception: True
+      PicturesLibrary: True
       InternetClient: True
+      WebCam: True
       Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 

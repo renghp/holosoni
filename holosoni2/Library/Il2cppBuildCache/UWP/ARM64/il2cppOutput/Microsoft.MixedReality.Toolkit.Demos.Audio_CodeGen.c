@@ -50,17 +50,17 @@ static Il2CppMethodPointer s_methodPointers[11] =
 };
 static const int32_t s_InvokerIndices[11] = 
 {
-	4671,
-	4671,
-	3788,
-	3788,
-	3788,
-	3788,
-	3752,
-	4671,
-	4671,
-	4671,
-	4671,
+	6102,
+	6102,
+	4901,
+	4901,
+	4901,
+	4901,
+	4862,
+	6102,
+	6102,
+	6102,
+	6102,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Demos_Audio_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_Audio_CodeGenModule;

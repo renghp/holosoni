@@ -65,6 +65,7 @@
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.ObjectModel.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Runtime.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.UI.Xaml.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/System.Xml.dll",
@@ -112,6 +113,9 @@
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
         "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/Vuforia.Unity.Engine.dll",
+        "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/Vuforia.Unity.Wrapper.dll",
+        "C:/Users/S3822262/holosoni/holosoni2/Temp/StagingArea/Data/Managed/VuforiaScripts.dll",
         "\"C:/Program Files/Unity 2020.3.29f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [

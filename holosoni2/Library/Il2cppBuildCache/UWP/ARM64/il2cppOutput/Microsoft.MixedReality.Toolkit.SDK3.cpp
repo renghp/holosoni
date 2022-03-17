@@ -36466,7 +36466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactable_SetupStates_m4D70C0C7472675
 		L_3 = States_get_StateModelType_mDDB2CE27D80DCCF417BE9025DC2282C5FEACF46E(L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		bool L_4;
-		L_4 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_3);
+		L_4 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_3);
 		States_t53165FC337BCC2D3927CD874804F1BB14D0AE441 * L_5;
 		L_5 = Interactable_get_States_m858331B46B5A2B342FF3236A971243C479BD84D2_inline(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
@@ -42992,7 +42992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractableEvent_set_ReceiverType_mE6BE
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(114 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		V_0 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 		bool L_4 = V_0;
 		if (!L_4)

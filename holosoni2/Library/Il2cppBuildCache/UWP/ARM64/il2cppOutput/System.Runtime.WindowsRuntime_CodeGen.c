@@ -342,188 +342,190 @@ extern void StreamOperationAsyncResult_get_ProcessCompletedOperationInCallback_m
 extern void StreamOperationAsyncResult_get_AsyncWaitHandle_mEC2CC1587D5C0D572D1676084C9F0874C70E5419 (void);
 // 0x000000D7 System.Boolean System.IO.StreamOperationAsyncResult::get_CompletedSynchronously()
 extern void StreamOperationAsyncResult_get_CompletedSynchronously_mCB694C3225E6982D2F379060F264346AE6B2FD91 (void);
-// 0x000000D8 System.Void System.IO.StreamOperationAsyncResult::Wait()
+// 0x000000D8 System.Boolean System.IO.StreamOperationAsyncResult::get_IsCompleted()
+extern void StreamOperationAsyncResult_get_IsCompleted_mED014A182B316DBF1D368C8232C3B7CF1F9A9132 (void);
+// 0x000000D9 System.Void System.IO.StreamOperationAsyncResult::Wait()
 extern void StreamOperationAsyncResult_Wait_mE75D8B0522C50D3DB13E208E49880920BD792027 (void);
-// 0x000000D9 System.Int64 System.IO.StreamOperationAsyncResult::get_BytesCompleted()
+// 0x000000DA System.Int64 System.IO.StreamOperationAsyncResult::get_BytesCompleted()
 extern void StreamOperationAsyncResult_get_BytesCompleted_m5403A4E77C326BB3EF2F162FC6953CA6E6D3CC67 (void);
-// 0x000000DA System.Boolean System.IO.StreamOperationAsyncResult::get_HasError()
+// 0x000000DB System.Boolean System.IO.StreamOperationAsyncResult::get_HasError()
 extern void StreamOperationAsyncResult_get_HasError_m6562D6FE81A91FE169D371027E52AA640BFB20B6 (void);
-// 0x000000DB System.Void System.IO.StreamOperationAsyncResult::ThrowCachedError()
+// 0x000000DC System.Void System.IO.StreamOperationAsyncResult::ThrowCachedError()
 extern void StreamOperationAsyncResult_ThrowCachedError_m6BB20A414CCA426D49DBD08B85B247FB92FEA42E (void);
-// 0x000000DC System.Boolean System.IO.StreamOperationAsyncResult::CancelStreamOperation()
+// 0x000000DD System.Boolean System.IO.StreamOperationAsyncResult::CancelStreamOperation()
 extern void StreamOperationAsyncResult_CancelStreamOperation_mD876EEEBA5CAF174B5B6B7B44A8894AEBA5BE2A5 (void);
-// 0x000000DD System.Void System.IO.StreamOperationAsyncResult::CloseStreamOperation()
+// 0x000000DE System.Void System.IO.StreamOperationAsyncResult::CloseStreamOperation()
 extern void StreamOperationAsyncResult_CloseStreamOperation_m042F47DF9DB008F66624EC8398941FDEAFE37AE3 (void);
-// 0x000000DE System.Void System.IO.StreamOperationAsyncResult::Finalize()
+// 0x000000DF System.Void System.IO.StreamOperationAsyncResult::Finalize()
 extern void StreamOperationAsyncResult_Finalize_mDCFE44E099F697B247990106CCDE5C65E87E69FD (void);
-// 0x000000DF System.Void System.IO.StreamOperationAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
-// 0x000000E0 System.Void System.IO.StreamOperationAsyncResult::ProcessCompletedOperation_InvalidOperationThrowHelper(System.Runtime.ExceptionServices.ExceptionDispatchInfo,System.String)
+// 0x000000E0 System.Void System.IO.StreamOperationAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
+// 0x000000E1 System.Void System.IO.StreamOperationAsyncResult::ProcessCompletedOperation_InvalidOperationThrowHelper(System.Runtime.ExceptionServices.ExceptionDispatchInfo,System.String)
 extern void StreamOperationAsyncResult_ProcessCompletedOperation_InvalidOperationThrowHelper_mE1F43B47E62673C89452990A76C00D4B32AD9C4B (void);
-// 0x000000E1 System.Void System.IO.StreamOperationAsyncResult::ProcessCompletedOperation()
+// 0x000000E2 System.Void System.IO.StreamOperationAsyncResult::ProcessCompletedOperation()
 extern void StreamOperationAsyncResult_ProcessCompletedOperation_mA5C6EC0EF465614E0AE88430AEC8DF3F6025230B (void);
-// 0x000000E2 System.Void System.IO.StreamOperationAsyncResult::StreamOperationCompletedCallback(Windows.Foundation.IAsyncInfo,Windows.Foundation.AsyncStatus)
+// 0x000000E3 System.Void System.IO.StreamOperationAsyncResult::StreamOperationCompletedCallback(Windows.Foundation.IAsyncInfo,Windows.Foundation.AsyncStatus)
 extern void StreamOperationAsyncResult_StreamOperationCompletedCallback_m8664F986613B86D53F2A6546B57F039B79FD77B7 (void);
-// 0x000000E3 System.Void System.IO.StreamReadAsyncResult::.ctor(Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32>,Windows.Storage.Streams.IBuffer,System.AsyncCallback,System.Object,System.Boolean)
+// 0x000000E4 System.Void System.IO.StreamReadAsyncResult::.ctor(Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32>,Windows.Storage.Streams.IBuffer,System.AsyncCallback,System.Object,System.Boolean)
 extern void StreamReadAsyncResult__ctor_mB4751ECFF1421735FF8B57120061C884BE9FA73D (void);
-// 0x000000E4 System.Void System.IO.StreamReadAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
+// 0x000000E5 System.Void System.IO.StreamReadAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
 extern void StreamReadAsyncResult_ProcessConcreteCompletedOperation_m610BFAFAC70476AF7689764A12ACCD5E798E7E68 (void);
-// 0x000000E5 System.Void System.IO.StreamReadAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32>,System.Int64&)
+// 0x000000E6 System.Void System.IO.StreamReadAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32>,System.Int64&)
 extern void StreamReadAsyncResult_ProcessConcreteCompletedOperation_m74976DB164217A4ADEC6B28D5EF7CD9FF4365010 (void);
-// 0x000000E6 System.Void System.IO.StreamWriteAsyncResult::.ctor(Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32>,System.AsyncCallback,System.Object,System.Boolean)
+// 0x000000E7 System.Void System.IO.StreamWriteAsyncResult::.ctor(Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32>,System.AsyncCallback,System.Object,System.Boolean)
 extern void StreamWriteAsyncResult__ctor_m3E6BCECE31072AA11E7A0D3E7910E0C794077650 (void);
-// 0x000000E7 System.Void System.IO.StreamWriteAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
+// 0x000000E8 System.Void System.IO.StreamWriteAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
 extern void StreamWriteAsyncResult_ProcessConcreteCompletedOperation_m6D4642009EB79E37E8C1C3F128D703A7438D8E98 (void);
-// 0x000000E8 System.Void System.IO.StreamWriteAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32>,System.Int64&)
+// 0x000000E9 System.Void System.IO.StreamWriteAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32>,System.Int64&)
 extern void StreamWriteAsyncResult_ProcessConcreteCompletedOperation_m574F743C45D1546AE38267AE4A252FAA6B69A47D (void);
-// 0x000000E9 System.Void System.IO.StreamFlushAsyncResult::.ctor(Windows.Foundation.IAsyncOperation`1<System.Boolean>,System.Boolean)
+// 0x000000EA System.Void System.IO.StreamFlushAsyncResult::.ctor(Windows.Foundation.IAsyncOperation`1<System.Boolean>,System.Boolean)
 extern void StreamFlushAsyncResult__ctor_m06EC8654F12493C0349F347F66D6310FEA18B572 (void);
-// 0x000000EA System.Void System.IO.StreamFlushAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
+// 0x000000EB System.Void System.IO.StreamFlushAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncInfo,System.Int64&)
 extern void StreamFlushAsyncResult_ProcessConcreteCompletedOperation_m346DBF7E51C4594662AFF8D167739650B9514749 (void);
-// 0x000000EB System.Void System.IO.StreamFlushAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperation`1<System.Boolean>,System.Int64&)
+// 0x000000EC System.Void System.IO.StreamFlushAsyncResult::ProcessConcreteCompletedOperation(Windows.Foundation.IAsyncOperation`1<System.Boolean>,System.Int64&)
 extern void StreamFlushAsyncResult_ProcessConcreteCompletedOperation_m2168C90AB0D3B27C96752E962C524B6DB21E68A1 (void);
-// 0x000000EC Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32> System.IO.StreamOperationsImplementation::ReadAsync_MemoryStream(System.IO.Stream,Windows.Storage.Streams.IBuffer,System.UInt32)
+// 0x000000ED Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32> System.IO.StreamOperationsImplementation::ReadAsync_MemoryStream(System.IO.Stream,Windows.Storage.Streams.IBuffer,System.UInt32)
 extern void StreamOperationsImplementation_ReadAsync_MemoryStream_m2BC4A9447C4FC451F37A4C5C138E6527B7478475 (void);
-// 0x000000ED Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32> System.IO.StreamOperationsImplementation::ReadAsync_AbstractStream(System.IO.Stream,Windows.Storage.Streams.IBuffer,System.UInt32,Windows.Storage.Streams.InputStreamOptions)
+// 0x000000EE Windows.Foundation.IAsyncOperationWithProgress`2<Windows.Storage.Streams.IBuffer,System.UInt32> System.IO.StreamOperationsImplementation::ReadAsync_AbstractStream(System.IO.Stream,Windows.Storage.Streams.IBuffer,System.UInt32,Windows.Storage.Streams.InputStreamOptions)
 extern void StreamOperationsImplementation_ReadAsync_AbstractStream_mD97E19CDE1D5B30888804D22D497A456F55C8389 (void);
-// 0x000000EE Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32> System.IO.StreamOperationsImplementation::WriteAsync_AbstractStream(System.IO.Stream,Windows.Storage.Streams.IBuffer)
+// 0x000000EF Windows.Foundation.IAsyncOperationWithProgress`2<System.UInt32,System.UInt32> System.IO.StreamOperationsImplementation::WriteAsync_AbstractStream(System.IO.Stream,Windows.Storage.Streams.IBuffer)
 extern void StreamOperationsImplementation_WriteAsync_AbstractStream_m6BAC2B7C1D28678DA9C4A01B46DBA9E133D7F79F (void);
-// 0x000000EF Windows.Foundation.IAsyncOperation`1<System.Boolean> System.IO.StreamOperationsImplementation::FlushAsync_AbstractStream(System.IO.Stream)
+// 0x000000F0 Windows.Foundation.IAsyncOperation`1<System.Boolean> System.IO.StreamOperationsImplementation::FlushAsync_AbstractStream(System.IO.Stream)
 extern void StreamOperationsImplementation_FlushAsync_AbstractStream_mA50CF5678134105ED08001B313EBEF58CA799449 (void);
-// 0x000000F0 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0::.ctor()
+// 0x000000F1 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0::.ctor()
 extern void U3CU3Ec__DisplayClass1_0__ctor_mFB31F49B69D848D6A4202E5C228090F000EC8773 (void);
-// 0x000000F1 System.Threading.Tasks.Task`1<Windows.Storage.Streams.IBuffer> System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0::<ReadAsync_AbstractStream>b__0(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
+// 0x000000F2 System.Threading.Tasks.Task`1<Windows.Storage.Streams.IBuffer> System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0::<ReadAsync_AbstractStream>b__0(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
 extern void U3CU3Ec__DisplayClass1_0_U3CReadAsync_AbstractStreamU3Eb__0_mFE1F64F591789133E43780CA963413C77F1A4A77 (void);
-// 0x000000F2 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0/<<ReadAsync_AbstractStream>b__0>d::MoveNext()
+// 0x000000F3 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0/<<ReadAsync_AbstractStream>b__0>d::MoveNext()
 extern void U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mC1D36A45BF2FDCABABBDCEDE49FE3A913422AC19 (void);
-// 0x000000F3 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0/<<ReadAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000F4 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass1_0/<<ReadAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m8EB4BEE55C89189510AFEB6A234A1D52E1CB6B25 (void);
-// 0x000000F4 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::.ctor()
+// 0x000000F5 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m9C80E0F1C68A32966AC1BDE51AF56467CEC8F43C (void);
-// 0x000000F5 System.Threading.Tasks.Task`1<System.UInt32> System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::<WriteAsync_AbstractStream>b__0(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
+// 0x000000F6 System.Threading.Tasks.Task`1<System.UInt32> System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::<WriteAsync_AbstractStream>b__0(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
 extern void U3CU3Ec__DisplayClass2_0_U3CWriteAsync_AbstractStreamU3Eb__0_m4445219F60D31A3DEB9CC0FEAC6F7BB3341176E1 (void);
-// 0x000000F6 System.Threading.Tasks.Task`1<System.UInt32> System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::<WriteAsync_AbstractStream>b__1(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
+// 0x000000F7 System.Threading.Tasks.Task`1<System.UInt32> System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0::<WriteAsync_AbstractStream>b__1(System.Threading.CancellationToken,System.IProgress`1<System.UInt32>)
 extern void U3CU3Ec__DisplayClass2_0_U3CWriteAsync_AbstractStreamU3Eb__1_mB585D7A26713B56BC3B4879C491EB98119BA811A (void);
-// 0x000000F7 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__0>d::MoveNext()
+// 0x000000F8 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__0>d::MoveNext()
 extern void U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mCEEE5BD2395036F1C1D727C3E700EF9C98C1AB66 (void);
-// 0x000000F8 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000F9 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m1D1090AA1574315EAAAF1BDFAF102FF0DDDFA444 (void);
-// 0x000000F9 System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__1>d::MoveNext()
+// 0x000000FA System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__1>d::MoveNext()
 extern void U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_MoveNext_m39EAE8D3C28C897571BD6B75E8EEB9FF3B4C91E3 (void);
-// 0x000000FA System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__1>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000FB System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass2_0/<<WriteAsync_AbstractStream>b__1>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_SetStateMachine_m33A77D8CF8ADAC6609E23EDDCEEF760CC6AB424E (void);
-// 0x000000FB System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0::.ctor()
+// 0x000000FC System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_m350292D0F4A35020BB1B08AE37B9662E357BEA7F (void);
-// 0x000000FC System.Threading.Tasks.Task`1<System.Boolean> System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0::<FlushAsync_AbstractStream>b__0(System.Threading.CancellationToken)
+// 0x000000FD System.Threading.Tasks.Task`1<System.Boolean> System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0::<FlushAsync_AbstractStream>b__0(System.Threading.CancellationToken)
 extern void U3CU3Ec__DisplayClass3_0_U3CFlushAsync_AbstractStreamU3Eb__0_mEBC6BD100444E3BE6CAA99A1636F6F4161BA5FEE (void);
-// 0x000000FD System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0/<<FlushAsync_AbstractStream>b__0>d::MoveNext()
+// 0x000000FE System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0/<<FlushAsync_AbstractStream>b__0>d::MoveNext()
 extern void U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_m8AA44C87D0EB20CF938521C952A1853B775E4663 (void);
-// 0x000000FE System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0/<<FlushAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000FF System.Void System.IO.StreamOperationsImplementation/<>c__DisplayClass3_0/<<FlushAsync_AbstractStream>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_mA57C936E30D64B8028F444623EA38774735D9255 (void);
-// 0x000000FF System.Void System.IO.WindowsRuntimeStreamExtensions::EnsureAdapterBufferSize(System.IO.Stream,System.Int32,System.String)
+// 0x00000100 System.Void System.IO.WindowsRuntimeStreamExtensions::EnsureAdapterBufferSize(System.IO.Stream,System.Int32,System.String)
 extern void WindowsRuntimeStreamExtensions_EnsureAdapterBufferSize_m9A09F3848DA3083254CDF196A366E450904214BE (void);
-// 0x00000100 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamForRead(Windows.Storage.Streams.IInputStream)
+// 0x00000101 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamForRead(Windows.Storage.Streams.IInputStream)
 extern void WindowsRuntimeStreamExtensions_AsStreamForRead_mBA8F061F0579EB69C41FB9499C4F4D2FD6C357E4 (void);
-// 0x00000101 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamInternal(System.Object,System.Int32,System.String,System.Boolean)
+// 0x00000102 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamInternal(System.Object,System.Int32,System.String,System.Boolean)
 extern void WindowsRuntimeStreamExtensions_AsStreamInternal_m3762C4CA7312AEF6D4FE4BB12DBBFEF7A593DB30 (void);
-// 0x00000102 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::WinRtToNetFxAdapterMap_GetValue(System.Object)
+// 0x00000103 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::WinRtToNetFxAdapterMap_GetValue(System.Object)
 extern void WindowsRuntimeStreamExtensions_WinRtToNetFxAdapterMap_GetValue_m6D66773DA407DF230DC6FFF9E826DD2B9055D16F (void);
-// 0x00000103 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::WinRtToNetFxAdapterMap_GetValue(System.Object,System.Int32)
+// 0x00000104 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::WinRtToNetFxAdapterMap_GetValue(System.Object,System.Int32)
 extern void WindowsRuntimeStreamExtensions_WinRtToNetFxAdapterMap_GetValue_m4FA8232F90B8FA02E47FEB4810DA4D278DA5D7F3 (void);
-// 0x00000104 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamInternalFactoryHelper(System.Object,System.Int32,System.String,System.Boolean)
+// 0x00000105 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions::AsStreamInternalFactoryHelper(System.Object,System.Int32,System.String,System.Boolean)
 extern void WindowsRuntimeStreamExtensions_AsStreamInternalFactoryHelper_mE4A399F3E256FB0B9EC0BC906FB00453EF6B0C1C (void);
-// 0x00000105 Windows.Storage.Streams.IInputStream System.IO.WindowsRuntimeStreamExtensions::AsInputStream(System.IO.Stream)
+// 0x00000106 Windows.Storage.Streams.IInputStream System.IO.WindowsRuntimeStreamExtensions::AsInputStream(System.IO.Stream)
 extern void WindowsRuntimeStreamExtensions_AsInputStream_mFEF7C721C7271287EB81DEDB91B7142F548690C0 (void);
-// 0x00000106 Windows.Storage.Streams.IOutputStream System.IO.WindowsRuntimeStreamExtensions::AsOutputStream(System.IO.Stream)
+// 0x00000107 Windows.Storage.Streams.IOutputStream System.IO.WindowsRuntimeStreamExtensions::AsOutputStream(System.IO.Stream)
 extern void WindowsRuntimeStreamExtensions_AsOutputStream_m18136531DCC44BCAFD0B81C8903D3252C7B1C023 (void);
-// 0x00000107 System.Object System.IO.WindowsRuntimeStreamExtensions::AsWindowsRuntimeStreamInternal(System.IO.Stream)
+// 0x00000108 System.Object System.IO.WindowsRuntimeStreamExtensions::AsWindowsRuntimeStreamInternal(System.IO.Stream)
 extern void WindowsRuntimeStreamExtensions_AsWindowsRuntimeStreamInternal_mA8AAEC9A456D8B40BB51378D379876604AD52CD8 (void);
-// 0x00000108 System.IO.NetFxToWinRtStreamAdapter System.IO.WindowsRuntimeStreamExtensions::AsWindowsRuntimeStreamInternalFactoryHelper(System.IO.Stream)
+// 0x00000109 System.IO.NetFxToWinRtStreamAdapter System.IO.WindowsRuntimeStreamExtensions::AsWindowsRuntimeStreamInternalFactoryHelper(System.IO.Stream)
 extern void WindowsRuntimeStreamExtensions_AsWindowsRuntimeStreamInternalFactoryHelper_mC11370D01C3717FA910330592EE03621728283B5 (void);
-// 0x00000109 System.Void System.IO.WindowsRuntimeStreamExtensions::.cctor()
+// 0x0000010A System.Void System.IO.WindowsRuntimeStreamExtensions::.cctor()
 extern void WindowsRuntimeStreamExtensions__cctor_m243D562D98411029000A566E6A3D9678B927373F (void);
-// 0x0000010A System.Void System.IO.WindowsRuntimeStreamExtensions/<>c::.cctor()
+// 0x0000010B System.Void System.IO.WindowsRuntimeStreamExtensions/<>c::.cctor()
 extern void U3CU3Ec__cctor_m456C094B1338E60DDCBF3C56E1088B660FD04573 (void);
-// 0x0000010B System.Void System.IO.WindowsRuntimeStreamExtensions/<>c::.ctor()
+// 0x0000010C System.Void System.IO.WindowsRuntimeStreamExtensions/<>c::.ctor()
 extern void U3CU3Ec__ctor_m127BD234CFB3525C21B77C1B24516F1BDAFF6D4E (void);
-// 0x0000010C System.IO.Stream System.IO.WindowsRuntimeStreamExtensions/<>c::<WinRtToNetFxAdapterMap_GetValue>b__11_0(System.Object)
+// 0x0000010D System.IO.Stream System.IO.WindowsRuntimeStreamExtensions/<>c::<WinRtToNetFxAdapterMap_GetValue>b__11_0(System.Object)
 extern void U3CU3Ec_U3CWinRtToNetFxAdapterMap_GetValueU3Eb__11_0_m3F4B068EA014829C34267EE25EC813DDE5FD54FC (void);
-// 0x0000010D System.IO.NetFxToWinRtStreamAdapter System.IO.WindowsRuntimeStreamExtensions/<>c::<AsWindowsRuntimeStreamInternalFactoryHelper>b__18_0(System.IO.Stream)
+// 0x0000010E System.IO.NetFxToWinRtStreamAdapter System.IO.WindowsRuntimeStreamExtensions/<>c::<AsWindowsRuntimeStreamInternalFactoryHelper>b__18_0(System.IO.Stream)
 extern void U3CU3Ec_U3CAsWindowsRuntimeStreamInternalFactoryHelperU3Eb__18_0_m8452C90E376CFCD06DC0BC186ED412B40981D9B6 (void);
-// 0x0000010E System.Void System.IO.WindowsRuntimeStreamExtensions/<>c__DisplayClass12_0::.ctor()
+// 0x0000010F System.Void System.IO.WindowsRuntimeStreamExtensions/<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_mDE07BA4048178B1457AEE324E8CB9FB2D6B9E13B (void);
-// 0x0000010F System.IO.Stream System.IO.WindowsRuntimeStreamExtensions/<>c__DisplayClass12_0::<WinRtToNetFxAdapterMap_GetValue>b__0(System.Object)
+// 0x00000110 System.IO.Stream System.IO.WindowsRuntimeStreamExtensions/<>c__DisplayClass12_0::<WinRtToNetFxAdapterMap_GetValue>b__0(System.Object)
 extern void U3CU3Ec__DisplayClass12_0_U3CWinRtToNetFxAdapterMap_GetValueU3Eb__0_m6F1DE3033389651960CF9C26034EAEC557710EDB (void);
-// 0x00000110 System.Runtime.ExceptionServices.ExceptionDispatchInfo System.IO.WinRtIOHelper::NativeExceptionToIOExceptionInfo(System.Exception)
+// 0x00000111 System.Runtime.ExceptionServices.ExceptionDispatchInfo System.IO.WinRtIOHelper::NativeExceptionToIOExceptionInfo(System.Exception)
 extern void WinRtIOHelper_NativeExceptionToIOExceptionInfo_m0A82F36ED942F0F04DE566BED046DF90F5F996AC (void);
-// 0x00000111 System.Void System.IO.WinRtIOHelper::EnsureResultsInUserBuffer(Windows.Storage.Streams.IBuffer,Windows.Storage.Streams.IBuffer)
+// 0x00000112 System.Void System.IO.WinRtIOHelper::EnsureResultsInUserBuffer(Windows.Storage.Streams.IBuffer,Windows.Storage.Streams.IBuffer)
 extern void WinRtIOHelper_EnsureResultsInUserBuffer_m97A9B97F1E840EA9409A45C23B0395825CA2A9CD (void);
-// 0x00000112 System.IO.WinRtToNetFxStreamAdapter System.IO.WinRtToNetFxStreamAdapter::Create(System.Object)
+// 0x00000113 System.IO.WinRtToNetFxStreamAdapter System.IO.WinRtToNetFxStreamAdapter::Create(System.Object)
 extern void WinRtToNetFxStreamAdapter_Create_m1941D5D27BC10344E635EE5D7755582877515753 (void);
-// 0x00000113 System.Void System.IO.WinRtToNetFxStreamAdapter::.ctor(System.Object,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000114 System.Void System.IO.WinRtToNetFxStreamAdapter::.ctor(System.Object,System.Boolean,System.Boolean,System.Boolean)
 extern void WinRtToNetFxStreamAdapter__ctor_m8B209C238F0BC566D971D4772E5718A7A2DCC0D4 (void);
-// 0x00000114 System.Void System.IO.WinRtToNetFxStreamAdapter::SetWonInitializationRace()
+// 0x00000115 System.Void System.IO.WinRtToNetFxStreamAdapter::SetWonInitializationRace()
 extern void WinRtToNetFxStreamAdapter_SetWonInitializationRace_m42A8C348A545022297ED8EF50A9C589A5557BE33 (void);
-// 0x00000115 TWinRtStream System.IO.WinRtToNetFxStreamAdapter::GetWindowsRuntimeStream()
-// 0x00000116 System.Byte[] System.IO.WinRtToNetFxStreamAdapter::get_OneByteBuffer()
+// 0x00000116 TWinRtStream System.IO.WinRtToNetFxStreamAdapter::GetWindowsRuntimeStream()
+// 0x00000117 System.Byte[] System.IO.WinRtToNetFxStreamAdapter::get_OneByteBuffer()
 extern void WinRtToNetFxStreamAdapter_get_OneByteBuffer_m887E37C90B63333240834EF753C2419C82A88995 (void);
-// 0x00000117 TWinRtStream System.IO.WinRtToNetFxStreamAdapter::EnsureNotDisposed()
-// 0x00000118 System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureNotDisposed()
+// 0x00000118 TWinRtStream System.IO.WinRtToNetFxStreamAdapter::EnsureNotDisposed()
+// 0x00000119 System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureNotDisposed()
 extern void WinRtToNetFxStreamAdapter_EnsureNotDisposed_m4A0C10CB771A36D33756FF16EC5E4A84F68974FA (void);
-// 0x00000119 System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureCanRead()
+// 0x0000011A System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureCanRead()
 extern void WinRtToNetFxStreamAdapter_EnsureCanRead_m9C10520B67B8D00F979656A93E7DDAF913092EAF (void);
-// 0x0000011A System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureCanWrite()
+// 0x0000011B System.Void System.IO.WinRtToNetFxStreamAdapter::EnsureCanWrite()
 extern void WinRtToNetFxStreamAdapter_EnsureCanWrite_mA36BDE1AAC42A8D3838AEAEDDD4AFE7A2C2A0F36 (void);
-// 0x0000011B System.Void System.IO.WinRtToNetFxStreamAdapter::Dispose(System.Boolean)
+// 0x0000011C System.Void System.IO.WinRtToNetFxStreamAdapter::Dispose(System.Boolean)
 extern void WinRtToNetFxStreamAdapter_Dispose_m2BC709D35771EB4E52F0C49DE7FC5316E8FDD7F6 (void);
-// 0x0000011C System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanRead()
+// 0x0000011D System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanRead()
 extern void WinRtToNetFxStreamAdapter_get_CanRead_mEEFAF13B04BB453AC6D2D17B29C051A8296CA39C (void);
-// 0x0000011D System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanWrite()
+// 0x0000011E System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanWrite()
 extern void WinRtToNetFxStreamAdapter_get_CanWrite_mD4A8E9EC976CBE27DB471F5E0C874E4B08442370 (void);
-// 0x0000011E System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanSeek()
+// 0x0000011F System.Boolean System.IO.WinRtToNetFxStreamAdapter::get_CanSeek()
 extern void WinRtToNetFxStreamAdapter_get_CanSeek_m5E8371F34A7591CF8619F162B0A7A897A7716D74 (void);
-// 0x0000011F System.Int64 System.IO.WinRtToNetFxStreamAdapter::get_Length()
+// 0x00000120 System.Int64 System.IO.WinRtToNetFxStreamAdapter::get_Length()
 extern void WinRtToNetFxStreamAdapter_get_Length_mDF0B04AB284F70BF62C5E28280E93B0A74A1D51D (void);
-// 0x00000120 System.Int64 System.IO.WinRtToNetFxStreamAdapter::get_Position()
+// 0x00000121 System.Int64 System.IO.WinRtToNetFxStreamAdapter::get_Position()
 extern void WinRtToNetFxStreamAdapter_get_Position_m5988993EEDE99249A30261CBE151DCCAB5911D21 (void);
-// 0x00000121 System.Void System.IO.WinRtToNetFxStreamAdapter::set_Position(System.Int64)
+// 0x00000122 System.Void System.IO.WinRtToNetFxStreamAdapter::set_Position(System.Int64)
 extern void WinRtToNetFxStreamAdapter_set_Position_mB3EF40165C47C58B59200AFD3E8636B2E8F3671D (void);
-// 0x00000122 System.Int64 System.IO.WinRtToNetFxStreamAdapter::Seek(System.Int64,System.IO.SeekOrigin)
+// 0x00000123 System.Int64 System.IO.WinRtToNetFxStreamAdapter::Seek(System.Int64,System.IO.SeekOrigin)
 extern void WinRtToNetFxStreamAdapter_Seek_mE1D936462DF1B5ED3AD7016BD5C47DE5978339C1 (void);
-// 0x00000123 System.Void System.IO.WinRtToNetFxStreamAdapter::SetLength(System.Int64)
+// 0x00000124 System.Void System.IO.WinRtToNetFxStreamAdapter::SetLength(System.Int64)
 extern void WinRtToNetFxStreamAdapter_SetLength_m78F03F9F30847F87AEA9149151671A4D14521CE6 (void);
-// 0x00000124 System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.Boolean)
+// 0x00000125 System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.Boolean)
 extern void WinRtToNetFxStreamAdapter_BeginRead_mE6AB044C46DE2754BCC8DCE9EF832391EED12E43 (void);
-// 0x00000125 System.Int32 System.IO.WinRtToNetFxStreamAdapter::EndRead(System.IAsyncResult)
+// 0x00000126 System.Int32 System.IO.WinRtToNetFxStreamAdapter::EndRead(System.IAsyncResult)
 extern void WinRtToNetFxStreamAdapter_EndRead_m9C59FC9E6CB4ACDA1DB2A97BA368830BB9C57822 (void);
-// 0x00000126 System.Threading.Tasks.Task`1<System.Int32> System.IO.WinRtToNetFxStreamAdapter::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+// 0x00000127 System.Threading.Tasks.Task`1<System.Int32> System.IO.WinRtToNetFxStreamAdapter::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 extern void WinRtToNetFxStreamAdapter_ReadAsync_m2839A56689FBD994228C7341A383067EBB4C92FC (void);
-// 0x00000127 System.Int32 System.IO.WinRtToNetFxStreamAdapter::Read(System.Byte[],System.Int32,System.Int32)
+// 0x00000128 System.Int32 System.IO.WinRtToNetFxStreamAdapter::Read(System.Byte[],System.Int32,System.Int32)
 extern void WinRtToNetFxStreamAdapter_Read_m5C10A6BE8CDD4441A3861CC0AF6B8D4E3D4251DF (void);
-// 0x00000128 System.Int32 System.IO.WinRtToNetFxStreamAdapter::ReadByte()
+// 0x00000129 System.Int32 System.IO.WinRtToNetFxStreamAdapter::ReadByte()
 extern void WinRtToNetFxStreamAdapter_ReadByte_m319F6E7174A50839186820A8FF51BBED0B546162 (void);
-// 0x00000129 System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x0000012A System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void WinRtToNetFxStreamAdapter_BeginWrite_m98DA21E5650B7D909A6E2179E4DDB1BD2D1AD7DA (void);
-// 0x0000012A System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.Boolean)
+// 0x0000012B System.IAsyncResult System.IO.WinRtToNetFxStreamAdapter::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object,System.Boolean)
 extern void WinRtToNetFxStreamAdapter_BeginWrite_m50A59F32475413205F8F723F16D88F802AEB642A (void);
-// 0x0000012B System.Void System.IO.WinRtToNetFxStreamAdapter::EndWrite(System.IAsyncResult)
+// 0x0000012C System.Void System.IO.WinRtToNetFxStreamAdapter::EndWrite(System.IAsyncResult)
 extern void WinRtToNetFxStreamAdapter_EndWrite_mF25BDC9377675B944DBC3EE4043ECB0E0BA4CD57 (void);
-// 0x0000012C System.Threading.Tasks.Task System.IO.WinRtToNetFxStreamAdapter::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+// 0x0000012D System.Threading.Tasks.Task System.IO.WinRtToNetFxStreamAdapter::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 extern void WinRtToNetFxStreamAdapter_WriteAsync_m5FF961A780F2F9A5B8BEF686029E61CE97EAC668 (void);
-// 0x0000012D System.Void System.IO.WinRtToNetFxStreamAdapter::Write(System.Byte[],System.Int32,System.Int32)
+// 0x0000012E System.Void System.IO.WinRtToNetFxStreamAdapter::Write(System.Byte[],System.Int32,System.Int32)
 extern void WinRtToNetFxStreamAdapter_Write_mEB976C6AC1556E2195FE60F76E0165DCE6CA4A45 (void);
-// 0x0000012E System.Void System.IO.WinRtToNetFxStreamAdapter::WriteByte(System.Byte)
+// 0x0000012F System.Void System.IO.WinRtToNetFxStreamAdapter::WriteByte(System.Byte)
 extern void WinRtToNetFxStreamAdapter_WriteByte_mF9F18385374AD334724270797418AA1564BDCC70 (void);
-// 0x0000012F System.Void System.IO.WinRtToNetFxStreamAdapter::Flush()
+// 0x00000130 System.Void System.IO.WinRtToNetFxStreamAdapter::Flush()
 extern void WinRtToNetFxStreamAdapter_Flush_m1B6ED8AE08B8385798E9E2D0E7880F3E7593A670 (void);
-// 0x00000130 System.Threading.Tasks.Task System.IO.WinRtToNetFxStreamAdapter::FlushAsync(System.Threading.CancellationToken)
+// 0x00000131 System.Threading.Tasks.Task System.IO.WinRtToNetFxStreamAdapter::FlushAsync(System.Threading.CancellationToken)
 extern void WinRtToNetFxStreamAdapter_FlushAsync_m84CC91B369BA2C4982549533E5326726E29CF9EB (void);
-// 0x00000131 System.Threading.Tasks.Task`1<System.Int32> System.IO.WinRtToNetFxStreamAdapter::ReadAsyncInternal(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+// 0x00000132 System.Threading.Tasks.Task`1<System.Int32> System.IO.WinRtToNetFxStreamAdapter::ReadAsyncInternal(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
 extern void WinRtToNetFxStreamAdapter_ReadAsyncInternal_m208B9C1553F05A3A97D9181957AC026439F6FB3B (void);
-// 0x00000132 System.Void System.IO.WinRtToNetFxStreamAdapter/<ReadAsyncInternal>d__43::MoveNext()
+// 0x00000133 System.Void System.IO.WinRtToNetFxStreamAdapter/<ReadAsyncInternal>d__43::MoveNext()
 extern void U3CReadAsyncInternalU3Ed__43_MoveNext_m1D2D393E457FE5AD5760DFC3A9EFC2F017FB2D89 (void);
-// 0x00000133 System.Void System.IO.WinRtToNetFxStreamAdapter/<ReadAsyncInternal>d__43::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000134 System.Void System.IO.WinRtToNetFxStreamAdapter/<ReadAsyncInternal>d__43::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CReadAsyncInternalU3Ed__43_SetStateMachine_mC2F248E67C26F080C45D683C4B8C58AE1262438E (void);
-static Il2CppMethodPointer s_methodPointers[307] = 
+static Il2CppMethodPointer s_methodPointers[308] = 
 {
 	Point_get_X_mBB038490F2A4DEDC4933215A768B9A81E4C2CC1B,
 	Point_get_Y_m2F97D657DF50D6247401C2290485AB8543DF6D46,
@@ -740,6 +742,7 @@ static Il2CppMethodPointer s_methodPointers[307] =
 	StreamOperationAsyncResult_get_ProcessCompletedOperationInCallback_mB507DAA848CEC29A8856278DA1DA99A69224A5E8,
 	StreamOperationAsyncResult_get_AsyncWaitHandle_mEC2CC1587D5C0D572D1676084C9F0874C70E5419,
 	StreamOperationAsyncResult_get_CompletedSynchronously_mCB694C3225E6982D2F379060F264346AE6B2FD91,
+	StreamOperationAsyncResult_get_IsCompleted_mED014A182B316DBF1D368C8232C3B7CF1F9A9132,
 	StreamOperationAsyncResult_Wait_mE75D8B0522C50D3DB13E208E49880920BD792027,
 	StreamOperationAsyncResult_get_BytesCompleted_m5403A4E77C326BB3EF2F162FC6953CA6E6D3CC67,
 	StreamOperationAsyncResult_get_HasError_m6562D6FE81A91FE169D371027E52AA640BFB20B6,
@@ -891,66 +894,66 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[33] =
 	{ 0x06000017, Size_Equals_m37CCB677ADF6B257D9933FA438B4BE1940258A3C_AdjustorThunk },
 	{ 0x06000018, Size_GetHashCode_mF60F1C386F7CC56AC0C97E0F87C0AF09B15A2F6C_AdjustorThunk },
 	{ 0x0600001A, Size_ToString_m0433DB6256B42158534031FE03B25F45662CFD7C_AdjustorThunk },
-	{ 0x060000F2, U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mC1D36A45BF2FDCABABBDCEDE49FE3A913422AC19_AdjustorThunk },
-	{ 0x060000F3, U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m8EB4BEE55C89189510AFEB6A234A1D52E1CB6B25_AdjustorThunk },
-	{ 0x060000F7, U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mCEEE5BD2395036F1C1D727C3E700EF9C98C1AB66_AdjustorThunk },
-	{ 0x060000F8, U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m1D1090AA1574315EAAAF1BDFAF102FF0DDDFA444_AdjustorThunk },
-	{ 0x060000F9, U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_MoveNext_m39EAE8D3C28C897571BD6B75E8EEB9FF3B4C91E3_AdjustorThunk },
-	{ 0x060000FA, U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_SetStateMachine_m33A77D8CF8ADAC6609E23EDDCEEF760CC6AB424E_AdjustorThunk },
-	{ 0x060000FD, U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_m8AA44C87D0EB20CF938521C952A1853B775E4663_AdjustorThunk },
-	{ 0x060000FE, U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_mA57C936E30D64B8028F444623EA38774735D9255_AdjustorThunk },
-	{ 0x06000132, U3CReadAsyncInternalU3Ed__43_MoveNext_m1D2D393E457FE5AD5760DFC3A9EFC2F017FB2D89_AdjustorThunk },
-	{ 0x06000133, U3CReadAsyncInternalU3Ed__43_SetStateMachine_mC2F248E67C26F080C45D683C4B8C58AE1262438E_AdjustorThunk },
+	{ 0x060000F3, U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mC1D36A45BF2FDCABABBDCEDE49FE3A913422AC19_AdjustorThunk },
+	{ 0x060000F4, U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m8EB4BEE55C89189510AFEB6A234A1D52E1CB6B25_AdjustorThunk },
+	{ 0x060000F8, U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_mCEEE5BD2395036F1C1D727C3E700EF9C98C1AB66_AdjustorThunk },
+	{ 0x060000F9, U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_m1D1090AA1574315EAAAF1BDFAF102FF0DDDFA444_AdjustorThunk },
+	{ 0x060000FA, U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_MoveNext_m39EAE8D3C28C897571BD6B75E8EEB9FF3B4C91E3_AdjustorThunk },
+	{ 0x060000FB, U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_SetStateMachine_m33A77D8CF8ADAC6609E23EDDCEEF760CC6AB424E_AdjustorThunk },
+	{ 0x060000FE, U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_MoveNext_m8AA44C87D0EB20CF938521C952A1853B775E4663_AdjustorThunk },
+	{ 0x060000FF, U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_SetStateMachine_mA57C936E30D64B8028F444623EA38774735D9255_AdjustorThunk },
+	{ 0x06000133, U3CReadAsyncInternalU3Ed__43_MoveNext_m1D2D393E457FE5AD5760DFC3A9EFC2F017FB2D89_AdjustorThunk },
+	{ 0x06000134, U3CReadAsyncInternalU3Ed__43_SetStateMachine_mC2F248E67C26F080C45D683C4B8C58AE1262438E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[307] = 
+static const int32_t s_InvokerIndices[308] = 
 {
-	4496,
-	4496,
-	4586,
-	1507,
-	1507,
-	6133,
-	3275,
-	4550,
-	4496,
-	4496,
-	4496,
-	4496,
-	4622,
-	4586,
-	1507,
-	1507,
-	6139,
-	3275,
-	4550,
-	4496,
-	4496,
-	4622,
-	3275,
-	4550,
-	6144,
-	4586,
-	6461,
-	5782,
+	5909,
+	5909,
+	6005,
+	1998,
+	1998,
+	7955,
+	4260,
+	5966,
+	5909,
+	5909,
+	5909,
+	5909,
+	6049,
+	6005,
+	1998,
+	1998,
+	7962,
+	4260,
+	5966,
+	5909,
+	5909,
+	6049,
+	4260,
+	5966,
+	7967,
+	6005,
+	8391,
+	7532,
 	-1,
-	6669,
-	6580,
-	6011,
+	8668,
+	8563,
+	7816,
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
-	6580,
-	6838,
-	4671,
-	3788,
-	2178,
+	8563,
+	8889,
+	6102,
+	4901,
+	2840,
 	-1,
 	-1,
-	6794,
-	6466,
-	6838,
+	8843,
+	8397,
+	8889,
 	-1,
 	-1,
 	-1,
@@ -965,14 +968,14 @@ static const int32_t s_InvokerIndices[307] =
 	-1,
 	-1,
 	-1,
-	6298,
-	6838,
-	4671,
-	3788,
-	3788,
-	4671,
-	2172,
-	3788,
+	8147,
+	8889,
+	6102,
+	4901,
+	4901,
+	6102,
+	2834,
+	4901,
 	-1,
 	-1,
 	-1,
@@ -1025,12 +1028,12 @@ static const int32_t s_InvokerIndices[307] =
 	-1,
 	-1,
 	-1,
-	134,
-	134,
-	148,
-	1154,
-	3754,
-	3752,
+	215,
+	215,
+	232,
+	1548,
+	4864,
+	4862,
 	-1,
 	-1,
 	-1,
@@ -1057,160 +1060,161 @@ static const int32_t s_InvokerIndices[307] =
 	-1,
 	-1,
 	-1,
-	4552,
-	6575,
-	6466,
-	6838,
-	3752,
-	775,
-	1788,
-	4471,
-	4671,
-	4550,
-	4550,
-	3752,
-	4552,
-	3752,
-	134,
-	134,
-	148,
-	3754,
-	1154,
-	5625,
-	5359,
-	6298,
-	5183,
-	5681,
-	6124,
-	5625,
-	6580,
-	5973,
-	5803,
-	2160,
-	6580,
-	6481,
-	6638,
-	2172,
-	4671,
-	4586,
-	4586,
-	4671,
-	943,
-	2931,
-	4586,
-	3753,
-	4622,
-	4622,
-	4551,
-	4551,
-	3753,
-	6705,
-	4586,
-	2926,
-	2926,
-	2172,
-	2172,
-	2172,
-	3753,
-	2172,
-	3788,
-	798,
-	4586,
-	4622,
-	4586,
-	4622,
-	4671,
-	4551,
-	4622,
-	4671,
-	4622,
-	4671,
-	4671,
-	2160,
-	6298,
-	4671,
-	2172,
-	298,
-	2160,
-	2160,
-	798,
-	2160,
-	2160,
-	2181,
-	2160,
-	2160,
-	5631,
-	5367,
-	6018,
-	6580,
-	4671,
-	1487,
-	4671,
-	3788,
-	4671,
-	1487,
-	1487,
-	4671,
-	3788,
-	4671,
-	3788,
-	4671,
-	2914,
-	4671,
-	3788,
-	5818,
-	6580,
-	5362,
-	6580,
-	6013,
-	5362,
-	6580,
-	6580,
-	6580,
-	6580,
-	6838,
-	6838,
-	4671,
-	2931,
-	2931,
-	4671,
-	2931,
-	6580,
-	6298,
-	6580,
-	817,
-	4671,
-	-1,
-	4586,
-	-1,
-	4671,
-	4671,
-	4671,
-	3822,
-	4622,
-	4622,
-	4622,
-	4551,
-	4551,
-	3753,
-	1469,
-	3753,
-	111,
-	2705,
-	606,
-	877,
-	4550,
-	205,
-	111,
-	3788,
-	606,
-	1176,
-	3822,
-	4671,
-	2914,
-	606,
-	4671,
-	3788,
+	5968,
+	8558,
+	8397,
+	8889,
+	4862,
+	1052,
+	2367,
+	5878,
+	6102,
+	5966,
+	5966,
+	4862,
+	5968,
+	4862,
+	215,
+	215,
+	232,
+	4864,
+	1548,
+	7331,
+	6997,
+	8147,
+	6770,
+	7394,
+	7946,
+	7331,
+	8563,
+	7769,
+	7558,
+	2821,
+	8563,
+	8412,
+	8635,
+	2834,
+	6102,
+	6005,
+	6005,
+	6102,
+	1276,
+	3804,
+	6005,
+	4863,
+	6049,
+	6049,
+	5967,
+	5967,
+	4863,
+	8712,
+	6005,
+	3799,
+	3799,
+	2834,
+	2834,
+	2834,
+	4863,
+	2834,
+	4901,
+	1080,
+	6005,
+	6049,
+	6005,
+	6049,
+	6049,
+	6102,
+	5967,
+	6049,
+	6102,
+	6049,
+	6102,
+	6102,
+	2821,
+	8147,
+	6102,
+	2834,
+	428,
+	2821,
+	2821,
+	1080,
+	2821,
+	2821,
+	2843,
+	2821,
+	2821,
+	7337,
+	7005,
+	7824,
+	8563,
+	6102,
+	1972,
+	6102,
+	4901,
+	6102,
+	1972,
+	1972,
+	6102,
+	4901,
+	6102,
+	4901,
+	6102,
+	3785,
+	6102,
+	4901,
+	7576,
+	8563,
+	7000,
+	8563,
+	7819,
+	7000,
+	8563,
+	8563,
+	8563,
+	8563,
+	8889,
+	8889,
+	6102,
+	3804,
+	3804,
+	6102,
+	3804,
+	8563,
+	8147,
+	8563,
+	1103,
+	6102,
+	-1,
+	6005,
+	-1,
+	6102,
+	6102,
+	6102,
+	4942,
+	6049,
+	6049,
+	6049,
+	5967,
+	5967,
+	4863,
+	1952,
+	4863,
+	178,
+	3525,
+	839,
+	1187,
+	5966,
+	314,
+	178,
+	4901,
+	839,
+	1576,
+	4942,
+	6102,
+	3785,
+	839,
+	6102,
+	4901,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[24] = 
 {
@@ -1236,195 +1240,195 @@ static const Il2CppTokenRangePair s_rgctxIndices[24] =
 	{ 0x06000081, { 139, 2 } },
 	{ 0x06000082, { 141, 2 } },
 	{ 0x06000083, { 143, 3 } },
-	{ 0x06000115, { 175, 1 } },
-	{ 0x06000117, { 176, 1 } },
+	{ 0x06000116, { 175, 1 } },
+	{ 0x06000118, { 176, 1 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[177] = 
 {
-	{ (Il2CppRGCTXDataType)2, 1231 },
-	{ (Il2CppRGCTXDataType)3, 160 },
-	{ (Il2CppRGCTXDataType)2, 4188 },
-	{ (Il2CppRGCTXDataType)3, 161 },
-	{ (Il2CppRGCTXDataType)2, 1548 },
-	{ (Il2CppRGCTXDataType)3, 2558 },
-	{ (Il2CppRGCTXDataType)3, 51534 },
-	{ (Il2CppRGCTXDataType)3, 41689 },
-	{ (Il2CppRGCTXDataType)3, 51539 },
-	{ (Il2CppRGCTXDataType)2, 9614 },
-	{ (Il2CppRGCTXDataType)3, 41278 },
-	{ (Il2CppRGCTXDataType)3, 41279 },
-	{ (Il2CppRGCTXDataType)2, 9633 },
-	{ (Il2CppRGCTXDataType)3, 41277 },
-	{ (Il2CppRGCTXDataType)2, 4202 },
-	{ (Il2CppRGCTXDataType)3, 51211 },
-	{ (Il2CppRGCTXDataType)3, 51203 },
-	{ (Il2CppRGCTXDataType)3, 51188 },
-	{ (Il2CppRGCTXDataType)2, 1521 },
-	{ (Il2CppRGCTXDataType)3, 2478 },
-	{ (Il2CppRGCTXDataType)3, 2479 },
-	{ (Il2CppRGCTXDataType)2, 1530 },
-	{ (Il2CppRGCTXDataType)3, 2538 },
-	{ (Il2CppRGCTXDataType)3, 2480 },
-	{ (Il2CppRGCTXDataType)3, 41184 },
-	{ (Il2CppRGCTXDataType)3, 51548 },
-	{ (Il2CppRGCTXDataType)2, 9619 },
-	{ (Il2CppRGCTXDataType)3, 41302 },
-	{ (Il2CppRGCTXDataType)3, 41303 },
-	{ (Il2CppRGCTXDataType)2, 9636 },
-	{ (Il2CppRGCTXDataType)3, 41301 },
-	{ (Il2CppRGCTXDataType)3, 51552 },
-	{ (Il2CppRGCTXDataType)2, 4187 },
-	{ (Il2CppRGCTXDataType)3, 51212 },
-	{ (Il2CppRGCTXDataType)3, 51204 },
-	{ (Il2CppRGCTXDataType)3, 51189 },
-	{ (Il2CppRGCTXDataType)2, 1522 },
-	{ (Il2CppRGCTXDataType)3, 2482 },
-	{ (Il2CppRGCTXDataType)3, 2481 },
-	{ (Il2CppRGCTXDataType)2, 1557 },
-	{ (Il2CppRGCTXDataType)3, 2567 },
-	{ (Il2CppRGCTXDataType)3, 2483 },
-	{ (Il2CppRGCTXDataType)3, 41185 },
-	{ (Il2CppRGCTXDataType)2, 6195 },
-	{ (Il2CppRGCTXDataType)3, 41186 },
-	{ (Il2CppRGCTXDataType)2, 9605 },
-	{ (Il2CppRGCTXDataType)2, 1201 },
+	{ (Il2CppRGCTXDataType)2, 1939 },
+	{ (Il2CppRGCTXDataType)3, 257 },
+	{ (Il2CppRGCTXDataType)2, 6770 },
+	{ (Il2CppRGCTXDataType)3, 258 },
+	{ (Il2CppRGCTXDataType)2, 2475 },
+	{ (Il2CppRGCTXDataType)3, 3869 },
+	{ (Il2CppRGCTXDataType)3, 68613 },
+	{ (Il2CppRGCTXDataType)3, 55877 },
+	{ (Il2CppRGCTXDataType)3, 68618 },
+	{ (Il2CppRGCTXDataType)2, 14778 },
+	{ (Il2CppRGCTXDataType)3, 55464 },
+	{ (Il2CppRGCTXDataType)3, 55465 },
+	{ (Il2CppRGCTXDataType)2, 14804 },
+	{ (Il2CppRGCTXDataType)3, 55463 },
+	{ (Il2CppRGCTXDataType)2, 6784 },
+	{ (Il2CppRGCTXDataType)3, 68156 },
+	{ (Il2CppRGCTXDataType)3, 68148 },
+	{ (Il2CppRGCTXDataType)3, 68132 },
+	{ (Il2CppRGCTXDataType)2, 2448 },
+	{ (Il2CppRGCTXDataType)3, 3789 },
+	{ (Il2CppRGCTXDataType)3, 3790 },
+	{ (Il2CppRGCTXDataType)2, 2457 },
+	{ (Il2CppRGCTXDataType)3, 3849 },
+	{ (Il2CppRGCTXDataType)3, 3791 },
+	{ (Il2CppRGCTXDataType)3, 55275 },
+	{ (Il2CppRGCTXDataType)3, 68627 },
+	{ (Il2CppRGCTXDataType)2, 14783 },
+	{ (Il2CppRGCTXDataType)3, 55488 },
+	{ (Il2CppRGCTXDataType)3, 55489 },
+	{ (Il2CppRGCTXDataType)2, 14807 },
+	{ (Il2CppRGCTXDataType)3, 55487 },
+	{ (Il2CppRGCTXDataType)3, 68631 },
+	{ (Il2CppRGCTXDataType)2, 6769 },
+	{ (Il2CppRGCTXDataType)3, 68157 },
+	{ (Il2CppRGCTXDataType)3, 68149 },
+	{ (Il2CppRGCTXDataType)3, 68133 },
+	{ (Il2CppRGCTXDataType)2, 2449 },
+	{ (Il2CppRGCTXDataType)3, 3793 },
+	{ (Il2CppRGCTXDataType)3, 3792 },
+	{ (Il2CppRGCTXDataType)2, 2484 },
+	{ (Il2CppRGCTXDataType)3, 3878 },
+	{ (Il2CppRGCTXDataType)3, 3794 },
+	{ (Il2CppRGCTXDataType)3, 55276 },
+	{ (Il2CppRGCTXDataType)2, 9718 },
+	{ (Il2CppRGCTXDataType)3, 55277 },
+	{ (Il2CppRGCTXDataType)2, 14754 },
+	{ (Il2CppRGCTXDataType)2, 1866 },
 	{ (Il2CppRGCTXDataType)3, 8 },
-	{ (Il2CppRGCTXDataType)3, 2485 },
-	{ (Il2CppRGCTXDataType)3, 41190 },
-	{ (Il2CppRGCTXDataType)3, 41188 },
-	{ (Il2CppRGCTXDataType)3, 2484 },
+	{ (Il2CppRGCTXDataType)3, 3796 },
+	{ (Il2CppRGCTXDataType)3, 55281 },
+	{ (Il2CppRGCTXDataType)3, 55279 },
+	{ (Il2CppRGCTXDataType)3, 3795 },
 	{ (Il2CppRGCTXDataType)3, 7 },
-	{ (Il2CppRGCTXDataType)2, 4000 },
-	{ (Il2CppRGCTXDataType)3, 16150 },
-	{ (Il2CppRGCTXDataType)3, 16151 },
-	{ (Il2CppRGCTXDataType)3, 41189 },
-	{ (Il2CppRGCTXDataType)3, 41187 },
-	{ (Il2CppRGCTXDataType)2, 1219 },
-	{ (Il2CppRGCTXDataType)3, 118 },
-	{ (Il2CppRGCTXDataType)2, 1206 },
-	{ (Il2CppRGCTXDataType)3, 13 },
-	{ (Il2CppRGCTXDataType)2, 1206 },
-	{ (Il2CppRGCTXDataType)2, 4206 },
-	{ (Il2CppRGCTXDataType)2, 1220 },
-	{ (Il2CppRGCTXDataType)3, 119 },
-	{ (Il2CppRGCTXDataType)2, 1220 },
-	{ (Il2CppRGCTXDataType)2, 4193 },
-	{ (Il2CppRGCTXDataType)3, 41256 },
-	{ (Il2CppRGCTXDataType)3, 41258 },
-	{ (Il2CppRGCTXDataType)2, 1216 },
-	{ (Il2CppRGCTXDataType)3, 74 },
-	{ (Il2CppRGCTXDataType)2, 1173 },
-	{ (Il2CppRGCTXDataType)3, 41265 },
-	{ (Il2CppRGCTXDataType)3, 41267 },
-	{ (Il2CppRGCTXDataType)3, 41255 },
-	{ (Il2CppRGCTXDataType)3, 41269 },
-	{ (Il2CppRGCTXDataType)3, 51515 },
-	{ (Il2CppRGCTXDataType)2, 817 },
-	{ (Il2CppRGCTXDataType)3, 41264 },
-	{ (Il2CppRGCTXDataType)3, 41259 },
-	{ (Il2CppRGCTXDataType)3, 75 },
-	{ (Il2CppRGCTXDataType)3, 51315 },
-	{ (Il2CppRGCTXDataType)3, 51516 },
-	{ (Il2CppRGCTXDataType)2, 1099 },
-	{ (Il2CppRGCTXDataType)3, 41261 },
-	{ (Il2CppRGCTXDataType)3, 41262 },
-	{ (Il2CppRGCTXDataType)3, 41263 },
-	{ (Il2CppRGCTXDataType)3, 41266 },
-	{ (Il2CppRGCTXDataType)3, 41257 },
-	{ (Il2CppRGCTXDataType)3, 41260 },
-	{ (Il2CppRGCTXDataType)3, 76 },
-	{ (Il2CppRGCTXDataType)3, 51302 },
-	{ (Il2CppRGCTXDataType)3, 41270 },
-	{ (Il2CppRGCTXDataType)3, 41268 },
-	{ (Il2CppRGCTXDataType)3, 41271 },
-	{ (Il2CppRGCTXDataType)3, 41254 },
-	{ (Il2CppRGCTXDataType)2, 9608 },
-	{ (Il2CppRGCTXDataType)2, 9658 },
-	{ (Il2CppRGCTXDataType)3, 41724 },
-	{ (Il2CppRGCTXDataType)3, 41087 },
-	{ (Il2CppRGCTXDataType)2, 3974 },
-	{ (Il2CppRGCTXDataType)3, 16098 },
-	{ (Il2CppRGCTXDataType)2, 4082 },
-	{ (Il2CppRGCTXDataType)3, 16311 },
-	{ (Il2CppRGCTXDataType)3, 50598 },
-	{ (Il2CppRGCTXDataType)3, 50605 },
-	{ (Il2CppRGCTXDataType)3, 41273 },
-	{ (Il2CppRGCTXDataType)3, 50606 },
-	{ (Il2CppRGCTXDataType)3, 41272 },
-	{ (Il2CppRGCTXDataType)2, 1217 },
-	{ (Il2CppRGCTXDataType)3, 77 },
-	{ (Il2CppRGCTXDataType)2, 1217 },
-	{ (Il2CppRGCTXDataType)2, 9609 },
-	{ (Il2CppRGCTXDataType)3, 41276 },
-	{ (Il2CppRGCTXDataType)2, 9801 },
-	{ (Il2CppRGCTXDataType)3, 43065 },
-	{ (Il2CppRGCTXDataType)3, 43066 },
-	{ (Il2CppRGCTXDataType)3, 43067 },
-	{ (Il2CppRGCTXDataType)3, 41275 },
-	{ (Il2CppRGCTXDataType)2, 9783 },
-	{ (Il2CppRGCTXDataType)3, 42932 },
-	{ (Il2CppRGCTXDataType)3, 42933 },
-	{ (Il2CppRGCTXDataType)3, 41274 },
-	{ (Il2CppRGCTXDataType)3, 41280 },
-	{ (Il2CppRGCTXDataType)2, 9610 },
-	{ (Il2CppRGCTXDataType)3, 41284 },
-	{ (Il2CppRGCTXDataType)3, 2539 },
-	{ (Il2CppRGCTXDataType)3, 41292 },
-	{ (Il2CppRGCTXDataType)3, 41305 },
-	{ (Il2CppRGCTXDataType)2, 9611 },
-	{ (Il2CppRGCTXDataType)3, 41304 },
-	{ (Il2CppRGCTXDataType)3, 41309 },
-	{ (Il2CppRGCTXDataType)3, 2568 },
-	{ (Il2CppRGCTXDataType)3, 2559 },
-	{ (Il2CppRGCTXDataType)3, 41317 },
-	{ (Il2CppRGCTXDataType)3, 41316 },
-	{ (Il2CppRGCTXDataType)2, 9613 },
-	{ (Il2CppRGCTXDataType)3, 41636 },
-	{ (Il2CppRGCTXDataType)2, 9618 },
-	{ (Il2CppRGCTXDataType)3, 41655 },
-	{ (Il2CppRGCTXDataType)2, 9616 },
-	{ (Il2CppRGCTXDataType)3, 41653 },
-	{ (Il2CppRGCTXDataType)2, 9617 },
-	{ (Il2CppRGCTXDataType)3, 41654 },
-	{ (Il2CppRGCTXDataType)3, 41300 },
-	{ (Il2CppRGCTXDataType)2, 6237 },
-	{ (Il2CppRGCTXDataType)2, 4632 },
-	{ (Il2CppRGCTXDataType)3, 4970 },
-	{ (Il2CppRGCTXDataType)2, 11180 },
-	{ (Il2CppRGCTXDataType)2, 4940 },
-	{ (Il2CppRGCTXDataType)2, 1727 },
-	{ (Il2CppRGCTXDataType)3, 48698 },
-	{ (Il2CppRGCTXDataType)3, 4971 },
-	{ (Il2CppRGCTXDataType)2, 7205 },
-	{ (Il2CppRGCTXDataType)3, 27193 },
-	{ (Il2CppRGCTXDataType)3, 4973 },
-	{ (Il2CppRGCTXDataType)2, 1727 },
-	{ (Il2CppRGCTXDataType)3, 4969 },
-	{ (Il2CppRGCTXDataType)3, 27440 },
-	{ (Il2CppRGCTXDataType)3, 44971 },
-	{ (Il2CppRGCTXDataType)3, 27442 },
-	{ (Il2CppRGCTXDataType)3, 4972 },
-	{ (Il2CppRGCTXDataType)2, 10928 },
-	{ (Il2CppRGCTXDataType)3, 27441 },
-	{ (Il2CppRGCTXDataType)2, 10998 },
-	{ (Il2CppRGCTXDataType)2, 7202 },
-	{ (Il2CppRGCTXDataType)3, 27072 },
-	{ (Il2CppRGCTXDataType)2, 7204 },
-	{ (Il2CppRGCTXDataType)3, 27462 },
-	{ (Il2CppRGCTXDataType)2, 4387 },
-	{ (Il2CppRGCTXDataType)3, 3415 },
-	{ (Il2CppRGCTXDataType)2, 1647 },
-	{ (Il2CppRGCTXDataType)3, 27194 },
-	{ (Il2CppRGCTXDataType)2, 7361 },
-	{ (Il2CppRGCTXDataType)2, 496 },
-	{ (Il2CppRGCTXDataType)2, 495 },
+	{ (Il2CppRGCTXDataType)2, 6382 },
+	{ (Il2CppRGCTXDataType)3, 21965 },
+	{ (Il2CppRGCTXDataType)3, 21966 },
+	{ (Il2CppRGCTXDataType)3, 55280 },
+	{ (Il2CppRGCTXDataType)3, 55278 },
+	{ (Il2CppRGCTXDataType)2, 1896 },
+	{ (Il2CppRGCTXDataType)3, 156 },
+	{ (Il2CppRGCTXDataType)2, 1872 },
+	{ (Il2CppRGCTXDataType)3, 14 },
+	{ (Il2CppRGCTXDataType)2, 1872 },
+	{ (Il2CppRGCTXDataType)2, 6788 },
+	{ (Il2CppRGCTXDataType)2, 1897 },
+	{ (Il2CppRGCTXDataType)3, 157 },
+	{ (Il2CppRGCTXDataType)2, 1897 },
+	{ (Il2CppRGCTXDataType)2, 6775 },
+	{ (Il2CppRGCTXDataType)3, 55442 },
+	{ (Il2CppRGCTXDataType)3, 55444 },
+	{ (Il2CppRGCTXDataType)2, 1890 },
+	{ (Il2CppRGCTXDataType)3, 107 },
+	{ (Il2CppRGCTXDataType)2, 1632 },
+	{ (Il2CppRGCTXDataType)3, 55451 },
+	{ (Il2CppRGCTXDataType)3, 55453 },
+	{ (Il2CppRGCTXDataType)3, 55441 },
+	{ (Il2CppRGCTXDataType)3, 55455 },
+	{ (Il2CppRGCTXDataType)3, 68561 },
+	{ (Il2CppRGCTXDataType)2, 1062 },
+	{ (Il2CppRGCTXDataType)3, 55450 },
+	{ (Il2CppRGCTXDataType)3, 55445 },
+	{ (Il2CppRGCTXDataType)3, 108 },
+	{ (Il2CppRGCTXDataType)3, 68310 },
+	{ (Il2CppRGCTXDataType)3, 68562 },
+	{ (Il2CppRGCTXDataType)2, 1489 },
+	{ (Il2CppRGCTXDataType)3, 55447 },
+	{ (Il2CppRGCTXDataType)3, 55448 },
+	{ (Il2CppRGCTXDataType)3, 55449 },
+	{ (Il2CppRGCTXDataType)3, 55452 },
+	{ (Il2CppRGCTXDataType)3, 55443 },
+	{ (Il2CppRGCTXDataType)3, 55446 },
+	{ (Il2CppRGCTXDataType)3, 109 },
+	{ (Il2CppRGCTXDataType)3, 68295 },
+	{ (Il2CppRGCTXDataType)3, 55456 },
+	{ (Il2CppRGCTXDataType)3, 55454 },
+	{ (Il2CppRGCTXDataType)3, 55457 },
+	{ (Il2CppRGCTXDataType)3, 55440 },
+	{ (Il2CppRGCTXDataType)2, 14772 },
+	{ (Il2CppRGCTXDataType)2, 14837 },
+	{ (Il2CppRGCTXDataType)3, 55922 },
+	{ (Il2CppRGCTXDataType)3, 55149 },
+	{ (Il2CppRGCTXDataType)2, 6312 },
+	{ (Il2CppRGCTXDataType)3, 21836 },
+	{ (Il2CppRGCTXDataType)2, 6565 },
+	{ (Il2CppRGCTXDataType)3, 22232 },
+	{ (Il2CppRGCTXDataType)3, 67400 },
+	{ (Il2CppRGCTXDataType)3, 67408 },
+	{ (Il2CppRGCTXDataType)3, 55459 },
+	{ (Il2CppRGCTXDataType)3, 67409 },
+	{ (Il2CppRGCTXDataType)3, 55458 },
+	{ (Il2CppRGCTXDataType)2, 1891 },
+	{ (Il2CppRGCTXDataType)3, 110 },
+	{ (Il2CppRGCTXDataType)2, 1891 },
+	{ (Il2CppRGCTXDataType)2, 14773 },
+	{ (Il2CppRGCTXDataType)3, 55462 },
+	{ (Il2CppRGCTXDataType)2, 15049 },
+	{ (Il2CppRGCTXDataType)3, 57582 },
+	{ (Il2CppRGCTXDataType)3, 57583 },
+	{ (Il2CppRGCTXDataType)3, 57584 },
+	{ (Il2CppRGCTXDataType)3, 55461 },
+	{ (Il2CppRGCTXDataType)2, 15017 },
+	{ (Il2CppRGCTXDataType)3, 57385 },
+	{ (Il2CppRGCTXDataType)3, 57386 },
+	{ (Il2CppRGCTXDataType)3, 55460 },
+	{ (Il2CppRGCTXDataType)3, 55466 },
+	{ (Il2CppRGCTXDataType)2, 14774 },
+	{ (Il2CppRGCTXDataType)3, 55470 },
+	{ (Il2CppRGCTXDataType)3, 3850 },
+	{ (Il2CppRGCTXDataType)3, 55478 },
+	{ (Il2CppRGCTXDataType)3, 55491 },
+	{ (Il2CppRGCTXDataType)2, 14775 },
+	{ (Il2CppRGCTXDataType)3, 55490 },
+	{ (Il2CppRGCTXDataType)3, 55495 },
+	{ (Il2CppRGCTXDataType)3, 3879 },
+	{ (Il2CppRGCTXDataType)3, 3870 },
+	{ (Il2CppRGCTXDataType)3, 55503 },
+	{ (Il2CppRGCTXDataType)3, 55502 },
+	{ (Il2CppRGCTXDataType)2, 14777 },
+	{ (Il2CppRGCTXDataType)3, 55822 },
+	{ (Il2CppRGCTXDataType)2, 14782 },
+	{ (Il2CppRGCTXDataType)3, 55841 },
+	{ (Il2CppRGCTXDataType)2, 14780 },
+	{ (Il2CppRGCTXDataType)3, 55839 },
+	{ (Il2CppRGCTXDataType)2, 14781 },
+	{ (Il2CppRGCTXDataType)3, 55840 },
+	{ (Il2CppRGCTXDataType)3, 55486 },
+	{ (Il2CppRGCTXDataType)2, 9774 },
+	{ (Il2CppRGCTXDataType)2, 7479 },
+	{ (Il2CppRGCTXDataType)3, 7280 },
+	{ (Il2CppRGCTXDataType)2, 17103 },
+	{ (Il2CppRGCTXDataType)2, 7916 },
+	{ (Il2CppRGCTXDataType)2, 2759 },
+	{ (Il2CppRGCTXDataType)3, 64879 },
+	{ (Il2CppRGCTXDataType)3, 7281 },
+	{ (Il2CppRGCTXDataType)2, 11041 },
+	{ (Il2CppRGCTXDataType)3, 35522 },
+	{ (Il2CppRGCTXDataType)3, 7283 },
+	{ (Il2CppRGCTXDataType)2, 2759 },
+	{ (Il2CppRGCTXDataType)3, 7279 },
+	{ (Il2CppRGCTXDataType)3, 35817 },
+	{ (Il2CppRGCTXDataType)3, 60376 },
+	{ (Il2CppRGCTXDataType)3, 35819 },
+	{ (Il2CppRGCTXDataType)3, 7282 },
+	{ (Il2CppRGCTXDataType)2, 16720 },
+	{ (Il2CppRGCTXDataType)3, 35818 },
+	{ (Il2CppRGCTXDataType)2, 16804 },
+	{ (Il2CppRGCTXDataType)2, 11037 },
+	{ (Il2CppRGCTXDataType)3, 35372 },
+	{ (Il2CppRGCTXDataType)2, 11040 },
+	{ (Il2CppRGCTXDataType)3, 35848 },
+	{ (Il2CppRGCTXDataType)2, 7071 },
+	{ (Il2CppRGCTXDataType)3, 5236 },
+	{ (Il2CppRGCTXDataType)2, 2638 },
+	{ (Il2CppRGCTXDataType)3, 35523 },
+	{ (Il2CppRGCTXDataType)2, 11286 },
+	{ (Il2CppRGCTXDataType)2, 645 },
+	{ (Il2CppRGCTXDataType)2, 644 },
 };
 extern const CustomAttributesCacheGenerator g_System_Runtime_WindowsRuntime_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule = 
 {
 	"System.Runtime.WindowsRuntime.dll",
-	307,
+	308,
 	s_methodPointers,
 	33,
 	s_adjustorThunks,

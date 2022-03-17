@@ -60,6 +60,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Numerics_Vectors_CodeGenModul
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_ObjectModel_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_CodeGenModule;
@@ -107,10 +108,13 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_ConformanceAutomation_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_VuforiaScripts_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Vuforia_Unity_Engine_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[91] = 
+const Il2CppCodeGenModule* g_CodeGenModules[95] = 
 {
 	(&g_I18N_CJK_CodeGenModule),
 	(&g_I18N_CodeGenModule),
@@ -154,6 +158,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[91] =
 	(&g_System_ObjectModel_CodeGenModule),
 	(&g_System_Runtime_CodeGenModule),
 	(&g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule),
+	(&g_System_Runtime_Serialization_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule),
 	(&g_System_Xml_CodeGenModule),
@@ -201,26 +206,29 @@ const Il2CppCodeGenModule* g_CodeGenModules[91] =
 	(&g_Unity_XR_OpenXR_Features_ConformanceAutomation_CodeGenModule),
 	(&g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule),
 	(&g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule),
+	(&g_VuforiaScripts_CodeGenModule),
+	(&g_Vuforia_Unity_Engine_CodeGenModule),
+	(&g_Vuforia_Unity_Wrapper_CodeGenModule),
 	(&g_WindowsRuntimeMetadata_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	6,
+	19,
 	g_ReversePInvokeWrapperPointers,
-	44990,
+	59093,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	6849,
+	8907,
 	g_Il2CppInvokerPointers,
-	1728,
+	2314,
 	g_UnresolvedVirtualMethodPointers,
-	6661,
+	10185,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	91,
+	95,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
