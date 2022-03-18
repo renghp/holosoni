@@ -2,9 +2,9 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/holosoni2/[Ll]ibrary/
-/holosoni2/Library/ArtifactDB
-/holosoni2/Packages/com.ptc.vuforia.engine-10.5.5.tgz	
+holosoni2/[Ll]ibrary/
+holosoni2/Library/ArtifactDB
+holosoni2/Packages/com.ptc.vuforia.engine-10.5.5.tgz	
 /holosoni2/[Tt]emp/
 /holosoni2/[Oo]bj/
 /holosoni2/[Bb]uild/
